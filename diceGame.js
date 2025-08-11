@@ -1,19 +1,12 @@
 let btn = document.querySelectorAll("button");
-// console.log(btn);
-
-// console.log(btn[0]);
 
 for (let i = 0; i < btn.length; i++) btn[i].addEventListener("click", check);
 
 let btnNum = 0;
 
 function check(e) {
-  //   e.target.innerText;
-  //   console.log(e.target.innerText);
   btnNum = e.target.innerText;
   console.log(btnNum);
-
-  //   console.log(typeof e.target.innerText);
 }
 
 let obj = {
